@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 from sklearn import preprocessing
-from sklearn.externals import joblib  #模型持久化
+import joblib  #模型持久化
 
 def get_sepsis_score(data, model):
     data_mean = np.array([
